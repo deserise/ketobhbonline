@@ -1,0 +1,158 @@
+/***************/
+.content h5.wp-block-heading {
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+.logo {
+	text-align: center;
+}
+.container-fluid.bg_color_gray {
+	/* background: #FAFAFA; */
+	text-align: center;
+	/* padding:70px 15px; */
+	padding:15px 15px 30px 15px;
+}
+.container-fluid.bg_color_white.desktop {
+	text-align: center;
+	padding: 0 15px 150px 15px;
+}
+.col-md-12.logo .attachment-medium.size-medium.wp-image-20 {
+	width: 180px;
+	margin-top: 30px;
+}
+/* .link_sec a {
+	font-family: "Roboto", Sans-serif;
+	font-weight: 400;
+	fill: #FFFFFF;
+	color: #FFFFFF;
+	background-color: #ED7D31;
+	border-radius: 33px 33px 33px 33px;
+	padding: 18px 25px 18px 25px;
+	margin-top: 30px;
+	display: inline-block;
+	font-size: 18px;
+	transition-duration: .3s;
+	transition-property: transform;
+	transition-timing-function: ease-out;
+} */
+.link_sec a {
+	font-family: "Roboto", Sans-serif;
+	font-weight: 400;
+	fill: #FFFFFF;
+	color: #141412;
+	background-color: transparent;
+	border-radius: 0;
+	padding: 10px 20px;
+	margin-top: 30px;
+	display: inline-block;
+	font-size: 18px;
+	transition-duration: .3s;
+	transition-property: transform;
+	transition-timing-function: ease-out;
+	border: 2px solid #141412;
+	height: 51px;
+}
+.link_sec a:hover {
+	text-decoration: none;
+	transform: translateY(-8px);
+}
+
+.link_sec a:hover, .link_sec a:focus {
+	text-decoration: none;
+}
+footer {
+	text-align: center;
+	padding: 20px 0;
+	height: auto;
+	background: #FAFAFA;
+}
+footer a {
+	color: #000;
+	font-size: 18px;
+}
+footer a:hover, footer a:focus {
+	text-decoration: none;
+}
+.link_sec a > span {
+	font-weight: 500;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+h2.elementor-heading-title.elementor-size-default {
+    margin-top: 0;
+}
+.container-fluid.bg_color_green.mobile {
+	background: #c9e3cd;
+	text-align: center;
+	padding: 50px 15px;
+}
+.content_sec strong {
+	font-size: 40px;
+}
+.content_sec span {
+	font-size: 16px;
+	font-weight: 400;
+	color: #999;
+	margin-top: 25px;
+	display: block;
+}
+
+.btn_sec .content_box {
+	background: #c9e3cd;
+	height: 292px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 100%;
+	border-radius: 30px;
+	position: relative;
+	padding: 20px 0;
+}
+.img_sec .content_box_img {
+	background: #ddd;
+	padding: 30px;
+	border-radius: 30px;
+	height: 292px;
+}
+
+.container-fluid.bg_color_green.mobile h1 {	margin-top: 0; }
+.content_sec h1 {	margin-top: 0; }
+@media (min-width:992px) AND (max-width:1200px){
+	.btn_sec .content_box {	height: 240px;	padding: 0px 15px; }
+	.img_sec .content_box_img {	height: 240px; }
+	.content_sec h2 {	font-size: 22px; }
+	.content_sec strong {	font-size: 30px; }
+}
+@media (min-width:768px) AND (max-width:991px){
+	.content_sec h2 {	font-size: 22px; }
+	.img_sec .content_box_img {	height: 281px;}
+	.btn_sec .content_box {	height: 281px; 	padding: 23px 15px;}
+	.content_sec strong {	font-size: 30px; }
+}
+
+@media (max-width:767px){
+	.container-fluid.bg_color_gray.desktop {		display: none; 	}
+	.container.banner_img_sec .col-md-6.col-sm-10.col-12 {	padding: 0; }
+	header {	display: none; }
+	.container-fluid.bg_color_white.desktop {padding: 0 0px 50px 0px;}
+	.btn_sec .content_box {	height: 400px;	vertical-align: middle;	display: inline-block;	width: 100%;	padding: 55px 15px;	margin-bottom: 0px; border-radius: 0;}
+	.img_sec .content_box_img {	background: #ddd; padding: 30px; border-radius: 0;}
+	.container-fluid.bg_color_white.desktop .col-md-6 {	padding: 0; }
+	.content_sec strong {	font-size: 30px;}
+	.desktop {	display: none; }
+	.container-fluid.bg_color_green.mobile {	margin-bottom: 80px; }
+	.img-responsive {width: 100%;}
+    body {	background: #c9e3cd; }
+	footer {	background: #c9e3cd; }
+}
+@media (max-width:575px){
+	.container-fluid.bg_color_green.mobile h1 strong {	font-size: 25px; }	
+	.container-fluid.bg_color_green.mobile h2 {	font-size: 20px; }	
+	.container-fluid.bg_color_green.mobile {padding: 50px 15px;}	
+}
+@media (min-width:768px){
+.container-fluid.bg_color_green.mobile {	display: none; }
+.container.banner_img_sec { padding: 60px 15px 60px 15px; text-align: center;}
+.mobile {	display: none; }
+footer {   position: absolute;    width: 100%;    bottom: -130px; }
+}
